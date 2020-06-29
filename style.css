@@ -1,0 +1,35 @@
+body {
+  background: #26282b;
+  max-height: 100vh;
+  max-width: 100vw;
+  font-family: system-ui;
+  color: rgb(134, 181, 187);
+}
+
+#wrapper {
+  max-width: 40vw;
+  text-align: center;
+  margin: 40vh auto;
+  padding: 4rem;
+  font-size: 1rem;
+  border-radius: 41px;
+  box-shadow: 14px 14px 28px #202225, -14px -14px 28px #2c2e31;
+}
+
+input[type="submit"],
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+input[type="number"] {
+  display: block;
+  margin: 0 auto;
+  min-width: 6rem;
+  padding: 0.4rem;
+  min-height: 3.5vh;
+  border-radius: 10px;
+  border: none;
+}
